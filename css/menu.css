@@ -1,0 +1,41 @@
+/* Estilos para el header */
+header {
+    display: flex; /* Usamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacio entre el título y el menú */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    background-color: var(--color-primary); /* Fondo del header */
+    padding: 10px 20px; /* Espaciado dentro del header */
+    color: white;
+}
+
+/* Estilo para el título */
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+/* Estilos para el menú */
+.menu {
+    list-style-type: none; /* Eliminar los puntos */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Mostrar los elementos en línea */
+}
+
+.menu li {
+    margin: 0 20px; /* Espacio entre los elementos */
+}
+
+.menu a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Eliminar el subrayado */
+    font-size: 23px;
+    padding: 14px 20px; /* Espaciado dentro del enlace */
+    display: block; /* Hacer que el enlace ocupe todo el espacio del <li> */
+    transition: background-color 0.3s; /* Efecto suave en el cambio de color */
+}
+
+.menu a:hover {
+    background-color: var(--color-other); /* Color de fondo al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados en el hover */
+}
