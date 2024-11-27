@@ -1,0 +1,82 @@
+.conta {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */  /* Centrar verticalmente */
+    /* height: 100vh; Altura total de la pantalla */
+  }
+
+  .conta h2{
+text-align: center;
+font-size: 45px;
+margin:10px;
+  }
+
+  .conta h3{
+    text-align: center;
+    font-size: 35px;
+    margin:10px;
+      }
+
+      .conta p{
+        text-align: center;
+    font-size: 25px;
+    margin:10px;
+    font-weight: bold;
+      }
+    
+
+.diseno{
+    display: inline-block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+
+.tecni{
+    display: inline-block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+
+.frame{
+    display: inline-block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+
+.otros{
+    display: inline-block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+
+.progress-bar {
+    background-color: #4b4a4acb;
+    border-radius: 10px;
+    height: 25px;
+    
+  }
+  
+  .progress {
+    background-color: #ff002b;
+    height: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    border-radius: 10px 0 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: width 0.5s ease-in-out;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  
+
+
+
+

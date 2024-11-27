@@ -1,0 +1,21 @@
+.contacto {
+    display: flex;
+    justify-content: center; 
+    margin:100px 0 0 0;
+}
+
+.contacto img{
+    margin :40px auto;
+}
+
+/* Diseño responsivo */
+@media (max-width: 500px) {
+    .contacto {
+    flex-direction: column; /* Cambia el menú a vertical en pantallas pequeñas */
+      align-items: center;
+    }
+
+    .contacto img{
+        margin :20px auto;
+    }
+  }

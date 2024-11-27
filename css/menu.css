@@ -6,6 +6,7 @@ header {
     background-color: var(--color-primary); /* Fondo del header */
     padding: 10px 20px; /* Espaciado dentro del header */
     color: white;
+
 }
 
 /* Estilo para el título */
@@ -39,3 +40,24 @@ header h1 {
     background-color: var(--color-other); /* Color de fondo al pasar el mouse */
     border-radius: 5px; /* Bordes redondeados en el hover */
 }
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    /* Cambiar el menú a una columna en lugar de fila */
+    header {
+        flex-direction: column; /* Cambiar la dirección de los elementos */
+        text-align: center; /* Centrar los elementos */
+    }
+
+    .menu {
+        flex-direction: column; /* Menú en columna */
+        width: 100%; /* El menú ocupa todo el ancho */
+        margin-top: 20px; /* Espaciado por encima del menú */
+    }
+
+    .menu li {
+        margin: 10px 0; /* Espaciado vertical entre los elementos del menú */
+    }
+
+}
+
